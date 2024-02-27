@@ -64,6 +64,7 @@ a {
 .h1-hero{
     --text-font-family: "Roboto" sans-serif;
     font-weight: 700;
+    color: white;
 }
 
 .button-1,
@@ -90,7 +91,10 @@ a {
     font-weight: 500;
 }
 
-.p-desciption,
+.p-desciption{
+    color: white;
+}
+
 .h4-jobs,
 .h4-clas{
     --text-font-family: "Roboto" sans-serif;
@@ -114,4 +118,21 @@ a {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.font-hero{
+    background-color: #2E2F42;
+}
+
+.studio-footer{
+    color: white;
+}
+
+.font-team{
+    background-color: #F4F4FD;
+}
+
+.index-header,
+.global-header{
+    background-color: #E7E9FC;
 }
