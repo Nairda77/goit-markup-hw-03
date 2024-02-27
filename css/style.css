@@ -1,0 +1,117 @@
+:root {
+    color: #000000;
+    --link-color-hover: black ;
+    --heading-font-family:"Raleway", sans-serif;
+    --text-font-family:"Roboto", sans-serif;
+}
+
+* {
+    font-family: var(--text-font-family);
+}
+
+ul {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.global-header .main-nav a:hover {
+    color: var(--link-color_hover): #000000
+    cursor: pointer;
+}
+
+.button{
+    background-color: #4D5AE5 ;
+    /* Culoarea dorită când butonul este apăsat */
+    color: white;
+    /* Culoarea textului pentru contrast */
+    border-width: 0.5px;
+    cursor: pointer;
+}
+
+.web,
+.studio{
+    --heading-font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: #000000;
+   
+}
+
+.web{
+    color: #4D5AE5;
+}
+
+.studio{
+    color: #2E2F42;
+    margin: -0.25%;
+}
+
+.nav-bar,
+.nav-bar:visited{
+    --text-font-family:"Roboto"sans-serif;
+    font-weight: 500;
+}
+
+.a-contact{
+    --text-font-family: "Roboto" sans-serif;
+    font-weight: 400;
+}
+
+.h1-hero{
+    --text-font-family: "Roboto" sans-serif;
+    font-weight: 700;
+}
+
+.button-1,
+.button-category:active{
+    --text-font-family: "Roboto" sans-serif;
+    color: white;
+    font-weight: 500;
+    background-color: #4D5AE5;
+    border-radius: 2px;
+    padding: 10 px;
+}
+
+.button-category{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    border-radius: 2px;
+    border-width: 0.1px;
+}
+
+.h3-sections,
+.h3-names,
+.h3-courses{
+    --text-font-family:"Roboto"sans-serif;
+    font-weight: 500;
+}
+
+.p-desciption,
+.h4-jobs,
+.h4-clas{
+    --text-font-family: "Roboto" sans-serif;
+    font-weight: 400;
+}
+
+.h2-mission,
+.h2-team{
+    --text-font-family: "Roboto" sans-serif;
+    font-weight: 700;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.p,
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
