@@ -97,6 +97,9 @@ a {
 }
 .p-desciption-footer{
     color: rgb(255, 255, 255);
+    height: 72px;
+    width: 264px;
+
 }
 
 .h4-jobs,
@@ -124,6 +127,11 @@ a {
     list-style: none;
 }
 
+.container-index{
+    display: flex;
+    justify-content: center;
+}
+
 .font-hero{
     background-color: #2E2F42;
     width: 1440px;
@@ -131,11 +139,25 @@ a {
     height: 600px;
 }
 
+.container-hero{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+.container-upperhero{
+    display: flex;
+    justify-content: center;
+}
+
 .font-footer{
     background-color: #2E2F42;
     width: 1440px;
     top: 2280px;
     height: 312px;
+    padding: 100px 1020px 100px 156px
 }
 
 .studio-footer{
@@ -178,6 +200,11 @@ a {
     margin: 24px;
 }
 
+.cont-mis{
+    display: flex;
+    justify-content: center;
+}
+
 .section-WAWD{
     display: flex;
     justify-content: center;
@@ -191,4 +218,19 @@ a {
     margin: 24px;
     margin-top: 72px;
 }
+
+.container-team{
+    display: flex;
+    justify-content: center;
+}
+
+.team-title{
+    display: flex;
+    justify-content: center;
+}
+
+  .container-footer{
+    display: flex;
+    justify-content: center;
+  }
 
