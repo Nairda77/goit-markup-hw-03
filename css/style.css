@@ -91,8 +91,12 @@ a {
     font-weight: 500;
 }
 
-.p-desciption{
-    color: white;
+.p-description{
+    color: black;
+    margin-top: 8px;
+}
+.p-desciption-footer{
+    color: rgb(255, 255, 255);
 }
 
 .h4-jobs,
@@ -122,6 +126,16 @@ a {
 
 .font-hero{
     background-color: #2E2F42;
+    width: 1440px;
+    top: 72px;
+    height: 600px;
+}
+
+.font-footer{
+    background-color: #2E2F42;
+    width: 1440px;
+    top: 2280px;
+    height: 312px;
 }
 
 .studio-footer{
@@ -136,3 +150,45 @@ a {
 .global-header{
     background-color: #E7E9FC;
 }
+
+.index-header{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+.nav-bar{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.section-describe{
+    display: flex;
+    justify-content: center;
+    padding: 120px 156px;    
+}
+.container{
+    width: 1128px;
+}
+.describe{
+    display: flex;
+}
+.li-sub-hero{
+    margin: 24px;
+}
+
+.section-WAWD{
+    display: flex;
+    justify-content: center;
+}
+
+.WAWD-img{
+    display: inline-flex;
+}
+
+.li-WAWD{
+    margin: 24px;
+    margin-top: 72px;
+}
+
