@@ -81,8 +81,8 @@ a {
     color: white;
     font-weight: 500;
     background-color: #4D5AE5;
-    border-radius: 2px;
-    padding: 10 px;
+    border-radius: 4px;
+    padding: 10px;
 }
 
 .button-1{
@@ -95,7 +95,8 @@ a {
     color: #4D5AE5;
     background-color: #E7E9FC;
     border-radius: 2px;
-    border-width: 0.1px;
+    padding: 12px 24px 12px 24px;
+    border: #9aa3ee;
 }
 
 .h3-sections,
@@ -294,3 +295,36 @@ a {
     justify-content: center;
   }
 
+.container-button{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 586px;
+    height: 48px;
+    margin: 96px 168px 0px 168px;
+    padding: 0px;
+}
+
+.container-lib{
+    margin: 12px 24px 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px;
+    margin: 0%;
+}
+
+.container-courses{
+    display: flex;    
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 1128px;
+    padding: 0%;
+    margin: 72px 156px 48px 156px;
+}
+
+.section-courses{
+    display: flex;
+    justify-content: center;
+}
