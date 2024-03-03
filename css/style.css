@@ -203,6 +203,13 @@ a {
     padding: 24px 156px;
 }
 
+.global-header{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1440px;
+    padding: 24px 156px;
+}
+
 .nav-bar{
     display: inline-flex;
     justify-content: space-between;
