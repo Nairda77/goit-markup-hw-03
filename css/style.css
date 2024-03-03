@@ -157,6 +157,14 @@ a {
     background-color: #2E2F42;
     width: 1440px;
     top: 72px;
+    height: 312px;
+    padding: 100px 1020px 100px 156px;
+}
+
+.font-hero-up{
+    background-color: #2E2F42;
+    width: 1440px;
+    top: 72px;
     height: 600px;
 }
 
