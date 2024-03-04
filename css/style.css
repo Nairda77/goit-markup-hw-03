@@ -91,6 +91,22 @@ a {
     height: 56px;
 }
 
+.button-1:hover,
+.button-category:hover{
+    cursor: pointer;
+}
+
+.button-1:active{
+    background-color: #ffffff;
+    color: #4D5AE5;
+}
+
+.button-category:active {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    
+}
+
 .button-category{
     color: #4D5AE5;
     background-color: #E7E9FC;
