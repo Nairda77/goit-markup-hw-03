@@ -222,10 +222,6 @@ a {
     width: 1440px;
 }
 
-.global-header{
-    background-color: #E7E9FC;
-}
-
 .index-header{
     display: inline-flex;
     justify-content: space-between;
